@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		988FDF481B9B293F00AD4DF5 /* JovisConfirmView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 988FDF471B9B293F00AD4DF5 /* JovisConfirmView.h */; };
+		988FDF4A1B9B293F00AD4DF5 /* JovisConfirmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 988FDF491B9B293F00AD4DF5 /* JovisConfirmView.m */; };
+		988FDF501B9B294000AD4DF5 /* libJovisConfirmView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 988FDF441B9B293F00AD4DF5 /* libJovisConfirmView.a */; };
+		988FDF5C1B9B294A00AD4DF5 /* JovisConfirmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 988FDF3D1B9B281600AD4DF5 /* JovisConfirmView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		988FDF511B9B294000AD4DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 988FDF331B9B27A900AD4DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 988FDF431B9B293F00AD4DF5;
+			remoteInfo = JovisConfirmView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		988FDF421B9B293F00AD4DF5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				988FDF481B9B293F00AD4DF5 /* JovisConfirmView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		988FDF3C1B9B281600AD4DF5 /* JovisConfirmView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JovisConfirmView.h; path = Class/JovisConfirmView.h; sourceTree = "<group>"; };
+		988FDF3D1B9B281600AD4DF5 /* JovisConfirmView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JovisConfirmView.m; path = Class/JovisConfirmView.m; sourceTree = "<group>"; };
+		988FDF441B9B293F00AD4DF5 /* libJovisConfirmView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJovisConfirmView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		988FDF471B9B293F00AD4DF5 /* JovisConfirmView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JovisConfirmView.h; sourceTree = "<group>"; };
+		988FDF491B9B293F00AD4DF5 /* JovisConfirmView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JovisConfirmView.m; sourceTree = "<group>"; };
+		988FDF4F1B9B293F00AD4DF5 /* JovisConfirmViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JovisConfirmViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		988FDF551B9B294000AD4DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		988FDF411B9B293F00AD4DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988FDF4C1B9B293F00AD4DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988FDF501B9B294000AD4DF5 /* libJovisConfirmView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		988FDF321B9B27A900AD4DF5 = {
+			isa = PBXGroup;
+			children = (
+				988FDF3B1B9B27F200AD4DF5 /* Class */,
+				988FDF461B9B293F00AD4DF5 /* JovisConfirmView */,
+				988FDF531B9B294000AD4DF5 /* JovisConfirmViewTests */,
+				988FDF451B9B293F00AD4DF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		988FDF3B1B9B27F200AD4DF5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				988FDF3C1B9B281600AD4DF5 /* JovisConfirmView.h */,
+				988FDF3D1B9B281600AD4DF5 /* JovisConfirmView.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		988FDF451B9B293F00AD4DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				988FDF441B9B293F00AD4DF5 /* libJovisConfirmView.a */,
+				988FDF4F1B9B293F00AD4DF5 /* JovisConfirmViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		988FDF461B9B293F00AD4DF5 /* JovisConfirmView */ = {
+			isa = PBXGroup;
+			children = (
+				988FDF471B9B293F00AD4DF5 /* JovisConfirmView.h */,
+				988FDF491B9B293F00AD4DF5 /* JovisConfirmView.m */,
+			);
+			path = JovisConfirmView;
+			sourceTree = "<group>";
+		};
+		988FDF531B9B294000AD4DF5 /* JovisConfirmViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				988FDF541B9B294000AD4DF5 /* Supporting Files */,
+			);
+			path = JovisConfirmViewTests;
+			sourceTree = "<group>";
+		};
+		988FDF541B9B294000AD4DF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				988FDF551B9B294000AD4DF5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		988FDF431B9B293F00AD4DF5 /* JovisConfirmView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988FDF561B9B294000AD4DF5 /* Build configuration list for PBXNativeTarget "JovisConfirmView" */;
+			buildPhases = (
+				988FDF401B9B293F00AD4DF5 /* Sources */,
+				988FDF411B9B293F00AD4DF5 /* Frameworks */,
+				988FDF421B9B293F00AD4DF5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JovisConfirmView;
+			productName = JovisConfirmView;
+			productReference = 988FDF441B9B293F00AD4DF5 /* libJovisConfirmView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		988FDF4E1B9B293F00AD4DF5 /* JovisConfirmViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988FDF591B9B294000AD4DF5 /* Build configuration list for PBXNativeTarget "JovisConfirmViewTests" */;
+			buildPhases = (
+				988FDF4B1B9B293F00AD4DF5 /* Sources */,
+				988FDF4C1B9B293F00AD4DF5 /* Frameworks */,
+				988FDF4D1B9B293F00AD4DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				988FDF521B9B294000AD4DF5 /* PBXTargetDependency */,
+			);
+			name = JovisConfirmViewTests;
+			productName = JovisConfirmViewTests;
+			productReference = 988FDF4F1B9B293F00AD4DF5 /* JovisConfirmViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		988FDF331B9B27A900AD4DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					988FDF431B9B293F00AD4DF5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					988FDF4E1B9B293F00AD4DF5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 988FDF361B9B27A900AD4DF5 /* Build configuration list for PBXProject "JovisConfirmView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 988FDF321B9B27A900AD4DF5;
+			productRefGroup = 988FDF451B9B293F00AD4DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				988FDF431B9B293F00AD4DF5 /* JovisConfirmView */,
+				988FDF4E1B9B293F00AD4DF5 /* JovisConfirmViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		988FDF4D1B9B293F00AD4DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		988FDF401B9B293F00AD4DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988FDF4A1B9B293F00AD4DF5 /* JovisConfirmView.m in Sources */,
+				988FDF5C1B9B294A00AD4DF5 /* JovisConfirmView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988FDF4B1B9B293F00AD4DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		988FDF521B9B294000AD4DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 988FDF431B9B293F00AD4DF5 /* JovisConfirmView */;
+			targetProxy = 988FDF511B9B294000AD4DF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		988FDF371B9B27A900AD4DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		988FDF381B9B27A900AD4DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		988FDF571B9B294000AD4DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		988FDF581B9B294000AD4DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		988FDF5A1B9B294000AD4DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = JovisConfirmViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		988FDF5B1B9B294000AD4DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = JovisConfirmViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		988FDF361B9B27A900AD4DF5 /* Build configuration list for PBXProject "JovisConfirmView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988FDF371B9B27A900AD4DF5 /* Debug */,
+				988FDF381B9B27A900AD4DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988FDF561B9B294000AD4DF5 /* Build configuration list for PBXNativeTarget "JovisConfirmView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988FDF571B9B294000AD4DF5 /* Debug */,
+				988FDF581B9B294000AD4DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		988FDF591B9B294000AD4DF5 /* Build configuration list for PBXNativeTarget "JovisConfirmViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988FDF5A1B9B294000AD4DF5 /* Debug */,
+				988FDF5B1B9B294000AD4DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 988FDF331B9B27A900AD4DF5 /* Project object */;
+}
